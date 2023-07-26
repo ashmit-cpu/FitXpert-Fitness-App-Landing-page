@@ -107,7 +107,7 @@ header .navbar li a {
 
 }
 
-header .navbar li a:hover{
+header .navbar li a:hover {
   color: gainsboro;
 }
 
@@ -232,13 +232,16 @@ header .navbar li a:hover{
   padding: 14px;
   max-width: 200px;
   background-color: #1B1B1B;
-  transition: all 0.2s ease-in;
+  transition-delay: none;
 }
-.benefits .container .card-container .cards:hover{
-  -webkit-box-shadow: -1px 4px 96px -16px rgba(19,42,214,1);
--moz-box-shadow: -1px 4px 96px -16px rgba(19,42,214,1);
-box-shadow: -1px 4px 96px -16px rgba(19,42,214,1);
-transform: translateY(-2px);
+
+.benefits .container .card-container .cards:hover {
+  -webkit-box-shadow: -1px 4px 96px -16px rgba(19, 42, 214, 1);
+  -moz-box-shadow: -1px 4px 96px -16px rgba(19, 42, 214, 1);
+  box-shadow: -1px 4px 96px -16px rgba(19, 42, 214, 1);
+  transform: translateY(-2px);
+  transition: all 0.2s ease-in;
+  transition-delay: none;
 }
 
 
@@ -468,6 +471,7 @@ transform: translateY(-2px);
   .hero-section .container .right-col .download-btn .image {
     width: 150px;
   }
+ 
 
   .hero-section .container .right-col img {
     width: 110%;
@@ -566,10 +570,9 @@ transform: translateY(-2px);
   /* font */
 
 
-  .hero-section .container .left-col .slogan h2 ,
-  .benefits .container h2 ,
-  .testimonials .container h2
-  {
+  .hero-section .container .left-col .slogan h2,
+  .benefits .container h2,
+  .testimonials .container h2 {
 
     font-size: 24px;
 
@@ -618,6 +621,7 @@ transform: translateY(-2px);
     padding: 150px 30px;
 
   }
+
   header,
   .header.active {
     padding: 8px 30px;
@@ -644,7 +648,7 @@ transform: translateY(-2px);
     font-size: 18px;
   }
 
-  
+
 
 
 
@@ -733,11 +737,12 @@ transform: translateY(-2px);
     flex-direction: column-reverse;
     /* padding: 100px 120px; */
   }
+
   .hero-section .container .left-col {
     margin-top: 10px;
     color: white;
   }
-  
+
 
   /* .download-btn */
 
@@ -745,7 +750,7 @@ transform: translateY(-2px);
     display: flex;
     margin-left: 15%;
   }
-  
+
   .hero-section .container .right-col .download-btn .image {
     width: 100px;
   }
@@ -761,34 +766,34 @@ transform: translateY(-2px);
     padding: 14px;
     margin: 5px;
     min-height: 100px;
-  
+
   }
-  
-.testimonials .container .main-carousel .carousel-cell .card .top-row h4 {
-  color: #FFF;
-  font-family: var(--roboto-font-family);
-  font-size: 16px;
-  font-weight: 500;
-  margin-left: 10px;
-}
 
-.testimonials .container .main-carousel .carousel-cell .card .top-row img {
-  width: 24px;
-  height: 24px;
-  object-fit: cover;
-  border-radius: 50px;
-}
+  .testimonials .container .main-carousel .carousel-cell .card .top-row h4 {
+    color: #FFF;
+    font-family: var(--roboto-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
 
-.testimonials .container .main-carousel .carousel-cell .card .card-content {
-  color: var(--grey);
-  font-family: var(--roboto-font-family);
-  font-size: 12px;
-  font-weight: 400;
-}
+  .testimonials .container .main-carousel .carousel-cell .card .top-row img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
 
-
+  .testimonials .container .main-carousel .carousel-cell .card .card-content {
+    color: var(--grey);
+    font-family: var(--roboto-font-family);
+    font-size: 12px;
+    font-weight: 400;
+  }
 
 
-  
+
+
+
 
 }
