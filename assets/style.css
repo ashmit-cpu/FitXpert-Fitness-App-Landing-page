@@ -117,7 +117,7 @@ header .navbar li a:hover {
 .menu_window {
   display: none;
 }
-.header .navbar .features{
+.header .navbar .drop-down{
   position: relative;
 }
 .header .navbar .menu-content {
@@ -127,6 +127,7 @@ header .navbar li a:hover {
   left: -30px;
   opacity: 0;
   visibility: hidden;
+  white-space: nowrap;
   display: flex;
   flex-direction: column;
   z-index: 199;
@@ -148,7 +149,7 @@ header .navbar li a:hover {
   background-color: #ffffff1c;
 }
 
-.header .navbar .features:hover .menu-content {
+.header .navbar .drop-down:hover .menu-content {
   transform: translateY(0%);
   opacity: 1;
   visibility: visible;
