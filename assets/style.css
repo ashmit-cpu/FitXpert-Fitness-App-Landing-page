@@ -168,6 +168,33 @@ header .navbar li a:hover {
   justify-content: space-between;
 }
 
+
+/* herosection fade animation styling */
+.hero-section .container .left-col[data-aos="custom-fade-right"]{
+  opacity: 0;
+  transform: translateX(-100px);
+
+}
+.hero-section .container .left-col.aos-animate{
+  opacity: 1;
+  transform: translateX(0);
+
+}
+
+/* .right-col animation styling */
+.hero-section .container .right-col[data-aos="custom-fade-left"]{
+  opacity: 0;
+  transform: translateX(100px);
+
+}
+.hero-section .container .right-col.aos-animate{
+  opacity: 1;
+  transform: translateX(0);
+
+}
+
+
+
 .hero-section .container .left-col {
   color: white;
 }
@@ -786,6 +813,30 @@ header .navbar li a:hover {
     color: white;
   }
 
+
+  /* herosection fade animation styling */
+.hero-section .container .left-col[data-aos="custom-fade-right"]{
+  opacity: 0;
+  transform: translateY(60px);
+
+}
+.hero-section .container .left-col.aos-animate{
+  opacity: 1;
+  transform: translateY(0);
+
+}
+
+/* .right-col animation styling */
+.hero-section .container .right-col[data-aos="custom-fade-left"]{
+  opacity: 0;
+  transform: translateY(60px);
+
+}
+.hero-section .container .right-col.aos-animate{
+  opacity: 1;
+  transform: translateY(0);
+
+}
 
   /* .download-btn */
 
